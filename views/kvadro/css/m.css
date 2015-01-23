@@ -1,0 +1,383 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.10.2014, 11:40:21
+    Author     : pplexa
+*/
+
+#back2{
+    background: url("/views/kvadro/images/back2.jpg") no-repeat scroll left top transparent;
+}
+#back1{
+    background: url("/views/kvadro/images/back1.jpg") no-repeat scroll right top transparent;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #727272;
+    background: none repeat scroll 0% 0% #214D75;
+}
+body{
+    //background: url('/views/pokr/images/rect1.jpg') no-repeat fixed 50% 0px #FFF;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#000;
+}
+.sidebar, .content, .footer { 
+    padding: 0px;
+}
+.header{
+    max-width: 1100px;
+    margin: 0px auto;
+    background: url("/views/kvadro/images/kvadrolive2_02.jpg") repeat scroll 0% 0% transparent;
+    height: 39px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2px 2px 3px #000;
+    border-radius: 0px 0px 3px 3px;
+}
+.wrapper {
+    max-width: 1080px;
+    margin: 0px auto;
+    clear: both;
+    background-color: #fff;
+    height: 100px;
+    padding-bottom: 8px;
+}
+.wrapper-adres{
+    width:  220px;
+    height: 100px;
+    display: inline-block;
+    padding-top:40px;
+    padding-left: 20px;
+    
+    font-size: 14px;
+    color: #446C91;
+    font-weight: bold;
+}
+.wrapper-adres strong{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0E110F;
+}
+.menu{
+    max-width: 1100px;
+    margin: 0px auto;
+    background: url("/views/kvadro/images/kvadrolive2_02.jpg") repeat scroll 0% 0% transparent;
+    height: 39px;
+    position: relative;
+    z-index: 1;   
+    
+    box-shadow: 2px 2px 3px #000;
+    border-radius: 0px 0px 3px 3px;
+}
+
+
+
+.logo {
+    float: left;
+    margin-left: 28px;
+    padding-top: 28px;
+    font-size: 13.15px;
+    color: #0E110F;
+    text-decoration: none;
+    background: url("/views/kvadro/images/logo.png") no-repeat scroll left top transparent;
+    width: 333px;
+    margin-top: 30px;
+}
+
+.umenu{
+    //padding-top:17px;
+    margin: 0px;
+    float:left;
+    //width: 200px;
+    //height:70px;
+    padding-left:0px;
+    display: block;
+    font-size: 18px;
+    display: block;
+}
+.umenu li{
+    display: inline-block;
+    float:left;
+}
+.umenu li a{
+    text-decoration: none;
+    color:#000;
+    padding-left:20px;
+    padding-right:20px;
+	text-indent:0;
+	display:inline-block;
+	color:#000;
+	font-family:arial;
+	font-size:18px;
+	font-style:normal;
+	//height:78px;
+	line-height:38px;
+	text-decoration:none;
+	text-align:center;
+	//text-shadow:1px 1px 0px #ffffff; 
+}
+.umenu li a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.layout {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    
+    min-height: 100%;
+    margin-bottom: -50px;
+    
+    margin: auto;
+    overflow: hidden;
+    max-width: 1080px;
+    margin-bottom: 0px;
+    
+    background-color: #fff;
+}
+.sidebar {
+    width: 240px;
+    float: left;
+    //background-color: #ADC092;
+}
+.content {
+    margin-left: 240px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    //background-color: #B7B7B7;
+}
+.content h1{
+    margin-top:0px;
+}
+.content p{
+    text-indent: 25px;
+}
+
+.footer{
+    color: #fff;
+    max-width: 1100px;
+    margin: auto;
+    background-color: #555;
+}
+.img{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9), 0px 0px 0px rgba(255, 255, 255, 0.4) inset;
+}
+#simple-menu {
+    //margin-top:20px;
+    //margin-right: 15px;
+    margin: 3px 3px;
+    display:none;
+    float:left;
+    width:34px;
+    height:31px;
+}
+
+.lmenu{
+    font-size: 18px;
+}
+.lmenu li{
+    list-style-type:none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.lmenu{
+    color: #0044aa;
+    text-decoration: none;
+}
+a{
+    color: #0044aa;
+    text-decoration: none;
+}
+active{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.bread{
+    color: #0044aa;
+}
+
+.active{
+    color: #960b06;
+}
+/* goods */
+.goods-inline:hover{
+    cursor: pointer;
+}
+.goods-inline{
+    width:175px;
+    height:170px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    
+    padding:5px; 
+    border-radius:5px;
+}
+.name{
+    padding: 5px 0px;
+}
+
+.goods-inline img{
+    width:100px;
+    height:100px;
+}
+.goods-inf{
+    text-align: right;
+    padding-right:20px;
+    margin-bottom: 10px;
+}
+
+.goods-inline-27{
+    width:300px;
+    height:300px;
+}
+.goods-inline-27 img{
+    
+    width:auto;
+    height:auto;
+    
+    min-width:100px;
+    min-height:100px;
+}
+.goods-inline-27 .img-border-27{
+    padding:auto;
+    margin:auto;
+    width:200px;
+    height:160px;
+}
+
+/* category */
+.category-block{
+    width:250px;
+    height:250px;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    padding:auto 5px;
+    
+    border-radius:5px; 
+    background-color: #f8fbff;
+    
+    float:left;
+}
+.category-block h3{
+    background-color: #8AAED2;
+    border-bottom: 1px solid #ff0000;
+    padding: 10px 0px;
+    text-shadow: 2px 2px 2px #5E5E5E;
+}
+.category-block h3 a{
+    color:#000;
+}
+.category-block img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+
+.cart {
+    margin-top: 14px;
+    text-align: center;
+    padding-top:49px;
+    display:block;
+    float: right;
+    font-size: 10px;
+    width: 100px;
+    height: 40px;
+    background: url("/views/kvadro/images/shopping-cart.png") no-repeat scroll center top transparent;
+}
+#cart-amount{
+    font-size: 16px;
+    color: red;
+}
+.cart-order-do{
+    background-color: #f8ffe0;
+    padding: 10px;
+    text-align: right;
+}
+.cart-order-do input{
+    margin: 10px 0px;
+}
+
+.cart-list-goods{
+    width: 100%;
+}
+.cart-money{
+    text-align: center;
+}
+
+
+.goods-one-end{
+    padding: 10px;
+}
+.goods-name{
+    display:block;
+    font-size: 20px;
+    text-align: center;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+    float:left;
+}
+
+input,select{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 560px){
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body,#back1, #back2{
+        background: #FFF;
+    }
+    .sidebar{
+        display: none;
+    }
+    .content{
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+    #simple-menu{
+        display:block;
+    }
+    .umenu{
+        display: none;
+    }
+    .header{
+        //height:260px;
+    }
+    .content{
+        margin-top:15px;
+        padding-left: 5px;
+    }    
+    .logo{
+        float: left;
+        margin-left: 2px;
+        padding-top: 28px;
+        font-size: 13.15px;
+        color: #0E110F;
+        text-decoration: none;
+        background: #fff;
+        width: 200px;
+        margin-top: 30px;        
+    }
+
+}

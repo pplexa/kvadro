@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04.01.2015, 20:29:05
+    Author     : pplexa
+*/
+.goods-button-order {
+    cursor: pointer;
+	-moz-box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #519c17), color-stop(1, #2f4007) );
+	background:-moz-linear-gradient( center top, #519c17 5%, #2f4007 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#519c17', endColorstr='#2f4007');
+	background-color:#519c17;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+	text-indent:0;
+    display:inline-block;
+    margin: 5px 0px;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:121px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 11px #000000;
+}
+.goods-button-order:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2f4007), color-stop(1, #519c17) );
+	background:-moz-linear-gradient( center top, #2f4007 5%, #519c17 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4007', endColorstr='#519c17');
+	background-color:#2f4007;
+}.goods-button-order:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.goods-button-find {
+    cursor: pointer;
+	-moz-box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	box-shadow:inset 0px 0px 4px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #519c17), color-stop(1, #2f4007) );
+	background:-moz-linear-gradient( center top, #519c17 5%, #2f4007 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#519c17', endColorstr='#2f4007');
+	background-color:#519c17;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+	text-indent:0;
+    display:inline-block;
+    margin: 5px 0px;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:121px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 11px #000000;
+}
+.goods-button-find:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2f4007), color-stop(1, #519c17) );
+	background:-moz-linear-gradient( center top, #2f4007 5%, #519c17 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4007', endColorstr='#519c17');
+	background-color:#2f4007;
+}.goods-button-find:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.goods-propertys{
+    display: block;
+}
+.goods-propertys span{
+    display: block;
+    float:left;
+    text-align: right;
+    padding-right: 5px;
+    width: 100px;
+}
+.goods-cost{
+    color: #780c0c;
+    font-size: 26px;
+    text-align: center;
+}
+.goods-count{
+    width: 60px;
+}
+.goods-put-cart{
+    text-align: center;
+}
+.goods-no-photo{
+    width: 150px;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 10px;
+    color: #000;
+}
+
+.category-block-costs{
+    text-align: right; 
+    width:150px; 
+    position: relative; 
+    top:-47px; 
+    left:100px; 
+    background: #000;
+}
+
+.find-panel{
+    width: 400px;
+    border: 2px solid #d1d1d1;
+    background: -moz-linear-gradient(center top , #efefef, #f1f1f1) repeat scroll 0% 0% transparent;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9), 0px 0px 0px rgba(255, 255, 255, 0.4) inset;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    min-width: 300px;
+    padding: 20px;
+    
+    color: #000;
+}
+.find-panel label{
+    display: inline-block;
+    width:100px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.find-panel select{
+    width: 80px;
+    font-size: 16px;
+}
+.find-panel .goods-button-find{
+    padding: auto;
+    margin-left: 130px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.find-result-table{
+    border-collapse: collapse;
+    background:#f7f7f7; 
+    width:100%; 
+    font:14px Tahoma; 
+    color:#555555; 
+    margin:10px 0 20px 0;
+}
+.find-result-table th {
+    background: none repeat scroll 0% 0% #214D75;
+    padding:8px 0px;
+    color:#fff;
+}
+.find-result-table td{
+    padding: 2px 5px;
+}
+.tr-odd{
+    background: none repeat scroll 0% 0% #F5F8EC;
+}
