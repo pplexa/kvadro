@@ -118,6 +118,15 @@ switch($view){
     break;
     /* страница корня */
     case 'index':
+        // Для карусели
+        //_pp::add_script_to_header( URL_VIEW.'js/jquery-1.9.1.min.js');
+        _pp::add_script_to_header( URL_VIEW.'js/nivo/jquery.nivo.slider.js');
+        
+        _pp::add_css_to_header( URL_VIEW.'js/nivo/nivo-slider.css');
+        _pp::add_css_to_header( URL_VIEW.'js/nivo/default.css');
+        
+        _pp::add_css_to_header( URL_VIEW.'css/index.css');
+
         $view = 'index_page';
     break;
  
