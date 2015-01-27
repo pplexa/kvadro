@@ -487,3 +487,7 @@ div.ss {
 .cursor-pointer{
     cursor:pointer;
 }
+
+.regen-url-name{
+    display: inline-block !important;
+}

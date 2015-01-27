@@ -70,6 +70,17 @@ class _shop {
         return _db::query_onevalue("select min(`id`) from shop_goods where name_url = ?", array($name_url) );
     }
     /**
+     * Устанавливаем новый url для товара
+     * @param int $id 
+     * @return string новый url
+     */
+    public static function goods_regen_url_name( $id ){
+        $one = self::goods_one($id, false, true);
+        //TODO: получить уникальное имя в контексте базы товаров !
+        $res = _puu::translit($one[0]['name']);
+        return $res;
+    }
+    /**
      * Изменяем данные по товару
      * Товары хранятся в таблицах shop_goods shop_about
      * @param type $arr - массив массивов с названия колонок и занчениями для изменения

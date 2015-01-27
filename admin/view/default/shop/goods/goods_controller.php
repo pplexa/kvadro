@@ -77,6 +77,13 @@ switch ($view){
         }
         exit();
     break;
+    case 'shop_goods_regen_url':
+        if (isset($_POST['id'])){
+            $url_name = _shop::goods_regen_url_name( $_POST['id'] );
+            echo $url_name;
+        }
+        exit();
+    break;
     case 'shop_goods_delete_media':
         _shop::media_del($_POST['did'], $_POST['gid']);
         echo 'Удалили';

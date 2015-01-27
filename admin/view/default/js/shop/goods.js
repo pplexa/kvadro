@@ -61,6 +61,26 @@ function prep_del_goods(){
         }
     })
 }
+function prep_regen_url(){
+    $('.regen-url-name').click(function(){
+        var id = $(this).attr('rid');
+        urli = $('#frm-'+id).find('#name_url');
+        console.log('regen for:'+id);
+        $.ajax({
+                url: '?view=shop_goods_regen_url',
+                type: "POST",
+                data: {id:id},
+                success: function(res){
+                    urli.val( res );
+                    console.log('get regen:'+res);
+                },
+                error: function(){
+                    alert("Error");
+                }
+        });
+    })
+}
+
 function del_goods(type, param) {
     var par = {delete_type:type, param:param};
     $.ajax({
@@ -90,6 +110,7 @@ function load_goods_inf(id){
             $('#did-'+id).prop('load', true);
             $('#did-'+id).html( res );
             prep_del_goods();
+            prep_regen_url();
         },
         error: function(){
             alert("Error");

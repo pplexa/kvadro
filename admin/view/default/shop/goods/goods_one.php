@@ -2,7 +2,7 @@
 <form id="frm-<?php echo $good[0]['id']; ?>" class="goods-form-edit">
 <label for="name">Имя</label><input type="text" class="frm-goods-input" id="name" value="<?php echo $good[0]['name']; ?>"><br>
 <label for="category_id">Категория</label><input type="text" class="frm-goods-input" id="category_id" value="<?php echo $good[0]['category_id']; ?>"><br>
-<label for="name_url">Имя в url</label><input type="text" class="frm-goods-input" id="name_url" value="<?php echo $good[0]['name_url']; ?>"><br>
+<label for="name_url">Имя в url</label><input type="text" class="frm-goods-input" id="name_url" value="<?php echo $good[0]['name_url']; ?>"><span rid="<?php echo $good[0]['id']; ?>" class="ui-icon ui-icon-refresh regen-url-name"></span><br>
 <label for="about">Текст описания</label><textarea class="frm-goods-input" id="about"><?php echo $good[0]['about']; ?></textarea><br>
 <div id="save-<?php echo $good[0]['id']; ?>" class="act-button inquatr">Сохранить</div>
 <h3>Дочерние товары поставщиков</h3>
