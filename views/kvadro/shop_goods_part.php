@@ -1,4 +1,7 @@
-<?php 
+<?php
+/**
+ * Вывод списка товаров в категории по умолчанию 
+ */
 preg_match("/(.*)\?/", $_SERVER['REQUEST_URI'], $r);
 if (count($r) == 0 ){
     $gr = $_SERVER['REQUEST_URI'];
@@ -12,6 +15,8 @@ if (count($r) == 0 ){
         if ( $r['img'] != ''){
             $pp = pathinfo( $r['img'] );
             $url = URL_MEDIA.'s/'.$pp['filename'].$prefix_small.'.'.$pp['extension'];
+        }else{
+            $url = '';
         }
 if ( $r['name_url'] != '' ){  echo '<a href="'.$gr.'/'.$r['name_url'].'">';} 
 ?>
